@@ -1,0 +1,102 @@
+/* IMAGES */
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	background-color: yellow;
+}
+
+body {
+	font-family: 'Space Mono', monospace;
+	font-size: 16px;
+	font-weight: 400;
+	margin: 0;
+	padding: 0.5em;
+	color: lightblue;
+	background-color: orange;
+	min-height: 100vh;
+	line-height: 1.2;
+}
+
+header {
+	padding: 0.5em;
+}
+
+header img {
+	width: 100%;
+}
+
+footer {
+	padding: 0.5em;
+	text-align: right;
+}
+
+figure {
+	margin: 0;
+	padding: 0.5em;
+	width: calc(25% - 1em);
+}
+
+h1 {
+	position: fixed;
+    top: 0.5em;
+    left: -0.5em;
+    text-align: center;
+    font-size: 5em;
+    z-index: 0;
+    mix-blend-mode: color-dodge;
+    color: slateblue;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: -0.05em;
+    transform: rotate(-45deg);
+}
+
+.photo01 {
+	width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.photo02 {
+	width: 500px;
+	left: inherit;
+}
+
+.photo03{
+	width: 300px;
+}
+
+.photo04{
+	width: 300px;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.photo05{
+	width: 400px;
+}
+
+.photo06{
+	width: 300px;
+}
+
+.photo07{
+	width: 200px;
+}
+
+.photo08{
+	width:400px;
+}
+
+main {
+
+}
